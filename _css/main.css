@@ -1,1 +1,103 @@
-/* css */
+
+body{
+    margin:0px;
+    padding:0px;
+    
+    background-image: url("http://www.dardenarchitects.com/wp-content/uploads/2015/08/North-Entry-name-update-640x320.jpg");
+   
+}
+}
+
+#header{
+    background-color:gray;   /* this changes the background color to gray */
+    padding:0px;
+    color:white;
+}
+
+#header h1{
+    font-family:verdana;
+    font-size:60px;
+    padding:20px 40px;
+    margin:0px;
+}
+
+/*navagation*/
+#nav, #nav a{
+    background-color:#ccc;  /* this changes the background color to #ccc */ 
+    padding:10px;
+}
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none; /* this turns off the underline on the links */
+    transition:color 2s, background-color 2s;
+}
+#nav a:hoover {
+    background-color:#aaaaff;  /* this changes the background color to pink */
+    color:white;
+    transition:color 2s;
+}
+/*end navigation*/
+
+.spotlight{
+    background-color:pink;
+    padding:20px;
+}
+
+#content{
+    padding:20px 40px;
+    background-color:#eee;
+    margin:0px;
+}
+
+#content h2, #content h3 {
+    font-family:arial;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px 40px;
+}
+
+#page {
+    padding:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#header{
+    padding:20px;
+   width:400px;
+    background-color:pink;
+}
+
+#header:hover{
+    width:200px;
+    background-color:turquoise;
+    transition: width 2s, background-color 2s;
+}
+
+#header h2{
+    background-color:turquoise;
+    font-size:20px;
+}
+#header h2:hover{
+    background-color:purple;
+    transition:background-color 2s, font-size 2s;
+}*/
